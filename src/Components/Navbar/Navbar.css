@@ -2,8 +2,22 @@ div.MuiToolbar-root > a {
   color: white;
   text-decoration: unset;
 }
+div.MuiToolbar-root > a:hover {
+  border-bottom: 1px solid #a1c3ce;
+  color: #6dbdd8;
+}
 
 div.MuiToolbar-root {
-  color: Red;
   justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #eff4f7;
 }
+
+.MuiToolbar-root {
+  color: red;
+}
+
+/* #606472 */

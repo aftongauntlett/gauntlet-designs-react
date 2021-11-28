@@ -8,7 +8,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="sticky">
         <Toolbar>
           <Link to="/">Home</Link>
           <Link to="about">About</Link>
