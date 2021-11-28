@@ -1,0 +1,9 @@
+div.MuiToolbar-root > a {
+  color: white;
+  text-decoration: unset;
+}
+
+div.MuiToolbar-root {
+  color: Red;
+  justify-content: space-between;
+}
