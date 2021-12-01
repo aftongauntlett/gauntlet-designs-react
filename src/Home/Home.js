@@ -14,7 +14,6 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
-  color: theme.palette.text.secondary,
 }));
 
 export default function Home() {
@@ -40,10 +39,22 @@ export default function Home() {
             know what you will be paying before going in.
           </p>
         </div>
-        <Grid container spacing={3}>
-          <Grid item xs>
-            <Item>
-              <PaletteOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
+        <Grid
+          container
+          spacing={6}
+          sx={{
+            padding: "unset",
+          }}
+        >
+          <Grid item xs={12} md={4}>
+            <Item
+              sx={{
+                backgroundColor: "unset",
+                boxShadow: "unset",
+                paddingTop: 5,
+              }}
+            >
+              <PaletteOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
               <h2>DESIGN</h2>
               <p class="bullet-paragraphs">
                 Each website is uniquely created by our designers. We do not use
@@ -52,9 +63,15 @@ export default function Home() {
               </p>
             </Item>
           </Grid>
-          <Grid item xs={4}>
-            <Item>
-              <CodeOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
+          <Grid item xs={12} md={4}>
+            <Item
+              sx={{
+                backgroundColor: "unset",
+                boxShadow: "unset",
+                paddingTop: 5,
+              }}
+            >
+              <CodeOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
               <h2>DEVELOPMENT</h2>
               <p class="bullet-paragraphs">
                 Our developers have extensive knowledge to get your website
@@ -63,9 +80,15 @@ export default function Home() {
               </p>
             </Item>
           </Grid>
-          <Grid item xs>
-            <Item>
-              <CloudDoneOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
+          <Grid item xs={12} md={4}>
+            <Item
+              sx={{
+                backgroundColor: "unset",
+                boxShadow: "unset",
+                paddingTop: 5,
+              }}
+            >
+              <CloudDoneOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
               <h2>HOSTING</h2>
               <p class="bullet-paragraphs">
                 Let us build your website from the ground up. We make it simple.
