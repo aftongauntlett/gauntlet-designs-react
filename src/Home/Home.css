@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
 
+/* Main Intro Image and Blurb  */
+
 .image {
   padding-top: 8vh;
   padding-bottom: 3vh;
@@ -24,6 +26,21 @@
 .intro-image {
   display: flex;
   justify-content: center;
+}
+
+/* Three Bullet Paragraphs with Icons */
+
+.bullet-paragraphs {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #4a5454;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #4a5454;
+  letter-spacing: 2px;
 }
 
 body {

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "@mui/material";
 import { styled } from "@mui/material/styles";
-// import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import {
@@ -44,7 +43,7 @@ export default function Home() {
         <Grid container spacing={3}>
           <Grid item xs>
             <Item>
-              <PaletteOutlined />
+              <PaletteOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
               <h2>DESIGN</h2>
               <p class="bullet-paragraphs">
                 Each website is uniquely created by our designers. We do not use
@@ -55,7 +54,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <CodeOutlined />
+              <CodeOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
               <h2>DEVELOPMENT</h2>
               <p class="bullet-paragraphs">
                 Our developers have extensive knowledge to get your website
@@ -66,7 +65,7 @@ export default function Home() {
           </Grid>
           <Grid item xs>
             <Item>
-              <CloudDoneOutlined />
+              <CloudDoneOutlined style={{ fontSize: 100, color: "#2a7ea8" }} />
               <h2>HOSTING</h2>
               <p class="bullet-paragraphs">
                 Let us build your website from the ground up. We make it simple.
