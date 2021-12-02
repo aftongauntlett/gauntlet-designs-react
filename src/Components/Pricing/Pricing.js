@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
+import Divider from "@mui/material/Divider";
 
 import "./Pricing.css";
 
@@ -25,13 +26,40 @@ const Pricing = () => {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
-              <Item>Test 1 </Item>
+              <Item>
+                <h3 class="card-title">Start Up</h3>
+                <p class="card-list">1 Design Concept</p>
+                <Divider />
+                <p class="card-list">2 Revisions</p>
+                <Divider />
+                <p class="card-list">5 Pages Included</p>
+                <Divider />
+                <p class="card-list">Web Hosting Included</p>
+              </Item>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Item>Test 2</Item>
+              <Item>
+                <h3 class="card-title">Business</h3>
+                <p class="card-list">2 Design Concept</p>
+                <Divider />
+                <p class="card-list">3 Revisions</p>
+                <Divider />
+                <p class="card-list">5 Pages Included</p>
+                <Divider />
+                <p class="card-list">Web Hosting Included</p>
+              </Item>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Item>Test 3</Item>
+              <Item>
+                <h3 class="card-title">Business Plus</h3>
+                <p class="card-list">Everything from Business</p>
+                <Divider />
+                <p class="card-list">Checkout/Shopping Cart Features</p>
+                <Divider />
+                <p class="card-list">Account/Login Features</p>
+                <Divider />
+                <p class="card-list">Additional 5 pages</p>
+              </Item>
             </Grid>
           </Grid>
         </Box>

@@ -17,3 +17,17 @@
   display: flex;
   justify-content: center;
 }
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  font-size: 2vh;
+  color: #2a7ea8;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
