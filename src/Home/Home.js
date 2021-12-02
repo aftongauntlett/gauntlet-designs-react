@@ -3,6 +3,7 @@ import { Container } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import Pricing from "../Components/Pricing/Pricing";
 import {
   PaletteOutlined,
   CodeOutlined,
@@ -54,8 +55,8 @@ export default function Home() {
                 paddingTop: 5,
               }}
             >
-              <PaletteOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
-              <h2>DESIGN</h2>
+              <PaletteOutlined style={{ fontSize: 75, color: "#2a7ea8" }} />
+              <h2 class="title">DESIGN</h2>
               <p class="bullet-paragraphs">
                 Each website is uniquely created by our designers. We do not use
                 pre-built themes or templates which results in faster,
@@ -71,8 +72,8 @@ export default function Home() {
                 paddingTop: 5,
               }}
             >
-              <CodeOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
-              <h2>DEVELOPMENT</h2>
+              <CodeOutlined style={{ fontSize: 75, color: "#2a7ea8" }} />
+              <h2 class="title">DEVELOPMENT</h2>
               <p class="bullet-paragraphs">
                 Our developers have extensive knowledge to get your website
                 running fast. We build each site with on-page SEO to help keep
@@ -88,8 +89,8 @@ export default function Home() {
                 paddingTop: 5,
               }}
             >
-              <CloudDoneOutlined style={{ fontSize: 80, color: "#2a7ea8" }} />
-              <h2>HOSTING</h2>
+              <CloudDoneOutlined style={{ fontSize: 75, color: "#2a7ea8" }} />
+              <h2 class="title">HOSTING</h2>
               <p class="bullet-paragraphs">
                 Let us build your website from the ground up. We make it simple.
                 If you already have a hosting company and domain name, no
@@ -98,6 +99,7 @@ export default function Home() {
             </Item>
           </Grid>
         </Grid>
+        <Pricing />
       </div>
     </Container>
   );

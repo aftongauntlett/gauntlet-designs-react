@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+
+.pricing-title {
+  font-family: "Montserrat", sans-serif;
+  color: #4a5454;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  letter-spacing: 5px;
+}
+
+.pricing-text {
+  font-family: "Montserrat", sans-serif;
+  color: #4a5454;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}

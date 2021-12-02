@@ -36,10 +36,11 @@
   color: #4a5454;
 }
 
-h2 {
+.title {
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   font-size: 20px;
-  color: #4a5454;
+  color: #2a7ea8;
   letter-spacing: 2px;
 }
 
