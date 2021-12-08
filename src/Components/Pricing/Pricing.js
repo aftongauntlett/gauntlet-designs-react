@@ -19,10 +19,8 @@ const Pricing = () => {
   return (
     <div style={{ backgroundColor: "#a1c3ce", padding: 20, marginTop: 25 }}>
       <Container>
-        <h2 class="pricing-title">Pricing</h2>
-        <p class="pricing-text">
-          {" View our plans below. Contact us if you have special requests."}
-        </p>
+        <div class="pricing-title">Pricing</div>
+        <div class="pricing-text">{" View our plans below "}</div>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>

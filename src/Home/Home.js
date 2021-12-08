@@ -4,6 +4,8 @@ import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Pricing from "../Components/Pricing/Pricing";
+import Portfolio from "../Portfolio/Portfolio";
+
 import {
   PaletteOutlined,
   CodeOutlined,
@@ -38,8 +40,8 @@ export default function Home() {
               websites for small businesses. Our #1 goal is to help get small
               businesses an online presence without the big-tech prices. Our
               services are simple and straight-forward. We list all of our
-              pricing up-front, so you know what you will be paying before going
-              in.
+              Portfolio up-front, so you know what you will be paying before
+              going in.
             </p>
           </div>
           <Grid
@@ -104,6 +106,7 @@ export default function Home() {
         </div>
       </Container>
       <Pricing />
+      <Portfolio />
     </div>
   );
 }
